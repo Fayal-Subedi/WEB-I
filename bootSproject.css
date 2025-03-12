@@ -1,0 +1,83 @@
+/* .main{
+    display: flex;
+    position: absolute;
+}
+.carousel-inner{
+    height: 300px;
+    
+}
+.carousel-item active{
+    position: relative;
+    margin-right: 10px;
+}
+.black{
+    height: 2000px;
+    width: 2000px;
+    background-color: black;
+    position: relative;
+    margin-left: 93%;
+}
+.img{
+    width: 100px;
+    height: 100px;
+} */
+
+.carousel-caption{
+    /* background-color: rgba(0,0,0,0.3); RGB ALPHA, whcih contorls opacity */
+    /* margin-right: 100px;
+    padding: 30px;
+    position: absolute;
+   
+    left: 0%; */
+  
+    /* width: 100%;    Ensure it stretches across the width */
+    /* text-align: center;
+    padding: 30px;  */
+          /* background: rgba(0, 0, 0, 0.4);  */
+    /* margin-bottom: 0%; */
+    position: absolute;
+    bottom: 0;  /* Positions the caption at the bottom */
+    left: 0;    /* Ensures it's aligned to the left */
+    width: 100%; /* Ensures it stretches across the entire width */
+    padding: 30px; /* Adds padding for spacing around the text */
+    background: rgba(0, 0, 0, 0.3); /* Optional: semi-transparent background */
+    text-align: center; /* Centers the text */
+}
+.main1{
+    background-color: rgb(0, 0, 0, 0.646);
+    margin-right: 10px;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    margin-bottom: 30px;
+}
+
+.list1{
+    margin: 0px;
+    width:400px;
+}
+.list2{
+    margin: 0px;
+    margin-bottom: 100px;
+    width:250px;
+}
+.earimg{
+    margin: 10px;
+    display: block;
+}
+.forlist{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.list-container{
+    display: flex;
+}
+.truncate-text{
+        white-space: nowrap;      /* Prevent text from wrapping */
+        overflow: hidden;         /* Hide the overflow */
+        text-overflow: ellipsis;  /* Show "..." when text overflows */
+        width: 200px;             /* Set a fixed width */
+}

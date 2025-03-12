@@ -1,0 +1,39 @@
+body{
+    background-color: black;
+}
+a{
+    color: rgb(49, 92, 20);
+    text-decoration: none;
+    list-style: none;
+}
+.nav{
+    display: flex;
+    background-color: lightslategrey;
+    font-size: larger;
+    border-radius: 10px;
+    justify-content: right;
+    width: 99%;
+    position: fixed;
+}
+.ul1{
+    display: flex;
+    gap: 10%;
+    margin-right: 10%;
+}
+.info{
+    color: wheat;
+    background-color: black;
+    display: flex;
+    position: fixed;
+    top: 40%;
+    right: 50%;
+    left: 3%;
+    padding: 2%;
+    text-align: justify;
+}
+.snav{
+    position: fixed;
+    right: 93%;
+    top: 0%;
+    display:inline-flex;
+}
